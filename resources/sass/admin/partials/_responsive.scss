@@ -1,0 +1,61 @@
+@media screen and (max-width: 1199px) {
+	.appointment-list .alert {
+		width: 85%;
+	}
+}
+@media screen and (max-width: 767px) {
+	.navbar-brand{
+		h3{
+			font-size: 20px;
+		}
+	}
+	#dashboard-nav {
+		.logo {
+			height: 40px;
+		}
+	}
+	.menu-icon {
+		display: inline-block;
+	}
+	.sidebar {
+		width: 0;
+		padding: 20px 0 0;
+		transition: width 0.4s ease-out;
+		z-index: 1100;
+		.sidebar-sticky {
+			display: none;
+			.close-btn {
+				color: $nav-link;
+				font-size: 32px;
+				position: absolute;
+				top: -20px;
+				right: 20px;
+			}
+		}
+
+	}
+	.sign-in-form .box {
+		padding: 25px 15px 25px; 
+	}
+}
+@media screen and (max-width: 400px) {
+	#dashboard-nav {
+		.logo {
+			height: 35px;
+		}
+	}
+	.sign-in-form .box {
+		padding: 20px 0;
+		.logo {
+			height: 35px;
+		}
+		h1 {
+			font-size: 1.5rem;
+		}
+		.form-check {
+			padding-left: 0.5rem;
+			font-size: 0.95rem;
+		}
+
+	}
+}

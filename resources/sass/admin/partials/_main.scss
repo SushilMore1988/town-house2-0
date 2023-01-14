@@ -1,0 +1,219 @@
+.form-control {
+	&:focus {
+		box-shadow: none;
+		outline: none;
+	}
+} 
+h1 {
+	font-size: 1.5rem;
+	font-family: "Poppins-Bold", sans-serif;
+	// font-weight: 700;	
+}
+.navbar {
+	padding: 0;
+	// box-shadow: 2px 3px 25px rgba(0,0,0,0.1);
+	.nav-serch {
+		height: 18px;
+	}
+}
+.sidebar {
+	position: fixed;
+	top: 80px;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+	padding: 0;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+	background-color:#414042;
+	.sidebar-sticky {
+		position: relative;
+		top: 0;
+		// height: calc(100vh - 48px);
+		padding-top: 0.5rem;
+	}
+	.nav-link {
+		color: rgba(255, 255, 255, 0.39);
+		margin-right: 4px;
+		font-size: 12px;
+		padding:5px 10px;
+		display: flex;
+		&:hover, &:hover i {
+			color: #ccc8c8;
+		}
+		i {
+			font-size: 6px;
+			color: $white;
+			padding-top: 7px;
+			margin-right: 10px;
+		}
+
+	}
+	.nav-item.active{
+		background-color:#59575b;
+		.nav-link{
+			color: #fff !important;
+		}
+	}
+	.nav-item{
+		border-bottom: 1px solid rgba(107, 108, 109, 0.08);
+	}
+	.collapse-nav {
+		.nav-link {
+			padding-left: 35px;
+		}	
+	} 
+
+}
+@supports ((position: -webkit-sticky ) or (position: sticky)) {
+	.sidebar-sticky {
+		position: -webkit-sticky;
+		position: sticky;
+	}
+}
+
+.main {
+	// padding-top: 75px;
+	top:65px;
+	margin-top: 0px;
+	// .company-profile-tabs {
+	// 	.nav-pills {
+	// 		.nav-link {
+	// 			color: $dark;
+	// 			&.active {
+	// 				border-radius: 0;
+	// 				color: $white;
+	// 				background-color: $bg-red-bar;
+	// 			}
+	// 		}
+	// 	}
+	// 	.tab-content {
+	// 		h2 {
+	// 			font-size: 1.4rem;
+	// 		}
+	// 		.form-row {
+	// 			.form-group {
+	// 				margin-bottom: 1.2rem;
+	// 			}
+	// 		}
+
+	// 		.rating-container {
+	// 			ul {
+	// 				list-style: none;
+	// 				padding: 0;
+	// 				li {
+	// 					display: inline-block; 
+	// 					i {
+	// 						font-size: 1.4rem;
+	// 						color: $star-color;
+	// 					}
+	// 					&.hover {
+	// 						i {
+	// 							color: $star-hover !important;
+	// 						}
+	// 					}
+	// 					&.selected {
+	// 						i {
+	// 							color: $star-selected !important;
+	// 						}
+	// 					}
+	// 				}
+
+
+	// 			}
+	// 		}
+	// 	}
+	// }
+
+
+//student page css
+	.patient-table {
+		tbody {
+			cursor: pointer;
+			tr:hover{
+				background-color: $table-hover-color;
+			}
+		}
+		thead {
+			background-color: $border-header-color;
+			th {
+				height: 39px !important; 
+			}
+		}
+		tr {
+			th, td {
+				height: 41px;
+				input {
+					width: 100%;
+				}
+				vertical-align: middle;
+				padding: 5px 10px;
+			}
+			th:nth-child(1) {
+				width: 5%;
+				text-align: center;
+			}
+			th:nth-child(2) {
+				width: 8%;
+				text-align: center;
+			}
+			th:nth-child(3) {
+				width: 18%;
+			}
+		}
+		.student-img {
+			height: 40px;
+			border-radius: 50%;
+		}
+	}
+//setting page css
+	&.settingPage {
+		.collapse {
+			padding: 0.75rem;
+			background-color: $table-hover-color;
+		}
+		h5 {
+			padding: 0.4rem 0.75rem;
+			font-size: 1.1rem;
+			&:hover {
+				background-color: $table-hover-color;		
+			}
+			a {
+				text-decoration: underline;
+			}
+		}
+		label {
+			font-size: 0.95rem;
+			min-width: 175px;
+		}
+	}
+//create compition css
+	&.createCompitionPage {
+		label {
+			width: 110px;
+		}
+		input {
+			width: 100%
+		}
+		select {
+			height: 28px;
+			width: 100%;
+		}
+		.row-amount{
+			background-color:#f8f9fa!important;
+		}
+	}
+}
+/**By Sushil More**/
+.fs-25{
+	font-size:25px;
+}
+.notification-number{
+	padding: 4px;
+    font-size: 9px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    top: -35px;
+    right: -13px;
+    position: inherit;
+}

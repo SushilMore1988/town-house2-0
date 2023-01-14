@@ -1,0 +1,35 @@
+american cloud
+
+payment gateway
+sms gateway
+change plan
+logger
+register as an organization
+manual kyc verification
+
+
+payment gateway & kyc verification I have to do
+
+credit card have auto pay option
+
+Noel points
+
+vmc is still vulnerable
+
+on clicking console it is opening to dashboard not console
+
+which cypher are using? (md5 and rc4)
+
+SSLCipherSuite HIGH:MEDIUM:!MD5:!RC4
+
+do not use http level compression
+
+password plain text in http request
+
+hsts policy still disabled
+
+disable autocomplete
+
+ngnx version old
+
+can we mark cookie as secure

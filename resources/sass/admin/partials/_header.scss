@@ -1,0 +1,245 @@
+$white: #fff;
+$bg-red-bar: #d10101;
+$dark: #202020;
+$nav-link: #595959;
+$nav-link-hover: #ff454e;
+$nav-icon: #8c8c8c;
+$star-color: #ccc;
+$star-hover: #ffcc00;
+$star-selected:   #ff9933;
+$indicator: #ef172c;
+$arch-btn-bg: #ff78ae;
+$border-header-color: #f5f5f5;
+$table-hover-color: #f9f9f9;
+$primary-color: #17B0FF;
+$nav-brand-color:#000000;
+$nav-brand-span:#535252;
+$nav-link: #595959;
+$side-pane-bg: #f8f9fa;
+$input-border: #d6d6d6;
+$placeholder-color: #a6a6a6;
+
+@mixin font($font-family,  $font-file) {
+	@font-face {
+		font-family: $font-family;
+		src: url($font-file + ".ttf");
+	}
+}
+@mixin transform($translateX, $translateY) {
+	-webkit-transform: translate($translateX, $translateY);
+	-moz-transform: translate($translateX, $translateY);
+	-ms-transform: translate($translateX, $translateY);
+	-o-transform: translate($translateX, $translateY);
+	transform: translate($translateX, $translateY);
+}
+@include font("Montserrat-Regular", './fonts/Montserrat-Regular');
+@include font("Montserrat-Light", './fonts/Montserrat-Light');
+@include font("Montserrat-Bold", './fonts/Montserrat-Bold');
+@include font("Montserrat-SemiBold", "./fonts/Montserrat-SemiBold");
+@include font("Montserrat-Medium", "./fonts/Montserrat-Medium");
+@include font("Poppins-Light", "./fonts/Poppins-Light");
+@include font("Poppins-Medium", "./fonts/Poppins-Medium");
+@include font("Poppins-Bold", "./fonts/Poppins-Bold");
+body {
+	margin: 0;
+	padding: 0;
+	background-color: $white;
+	font-family: "Poppins-Light", sans-serif;
+	font-weight: 500;
+	color: $dark;
+}
+.arch-btn,  .custom-btn {
+	&:hover {
+		cursor: pointer;
+	}
+	&:focus {
+		outline: none;
+		box-shadow: none;
+	}	
+}
+.profile-img {
+	text-align: center;
+	padding: 10px 0 25px;
+	img {
+		height: 80px;
+		box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.8);
+		border-radius: 50%;
+		display: block;
+		border: 2px solid $white;
+		margin: auto;
+	}
+	p {
+		margin-bottom: 0;
+	}
+	h4 {
+		margin-bottom: 0;
+		margin-top: 16px;
+		font-size: 1rem;
+		color: $nav-brand-color !important;
+		font-weight: bold;
+
+	}
+}
+input {
+	height: 28px;
+}
+.active-link {
+	color: $nav-link-hover !important;
+	 i {
+	 	color: $nav-link-hover !important;
+	 }
+}
+.custom-btn {
+	background-color: $nav-brand-color;
+	color: $white;
+    border: none;
+    font-size: 0.95rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 9px !important;
+}
+.settingPage h5 {
+	font-family: "Montserrat-SemiBold", sans-serif;
+	font-weight: 600;	
+}
+ 
+.navbar-brand {
+	font-family: "Montserrat-Bold", sans-serif;
+	font-weight: 700;	
+	color:$nav-brand-color!important;
+	color: #000000;
+	span {
+		color: #535252;
+	}
+}
+
+.menu-icon {
+	display: none;
+	.menu-bar {
+		height: 3px;
+		width: 22px;
+		background-color: $nav-link;
+		margin: 4px 0;
+	}
+}
+.dropdown-toggle{
+	position:relative;
+	.spinner-grow{
+		position:absolute;
+		top:7px;
+		left: 18px;
+	}
+	.spinner-grow-sm {
+	    width: 0.5rem;
+	    height: 0.5rem;
+	}
+}
+#dashboard-nav {
+	.nav-item {
+		position: relative;
+		.indicator {
+			content: "";
+			position: absolute;
+			top: 2px;
+		    right: 0px;
+			display: inline-block;
+			width: 18px;
+			height: 18px;
+			font-size: 10px;
+			// padding:2px 5px;
+			border-radius: 100%;
+			background-color: $indicator;
+			// animation: 0.9s infinite Heartbeat;
+		}
+	}
+	.dropdown-toggle::after {
+		display: none;
+	}
+	.notification-dropdown{
+		min-width: 400px !important;
+		padding: 20px 0px;
+		h6 {
+			padding: .25rem 0.2rem !important;
+			color: $nav-link; 
+			margin-bottom: 0px;
+		} 
+		.dropdown-item {
+			padding: .25rem 0.25rem !important;
+		}
+	}
+	.dropdown-menu {
+		border: none;
+		box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.1);
+		padding: 20px 10px;
+		min-width: 180px;
+		right: 0;
+		top: 55px;
+		&.notification {
+			width: 400px;
+		}
+		h6 {
+			padding: .25rem 1rem;
+			color: $nav-link; 
+		} 
+		.dropdown-item {
+			padding: .25rem 1rem;
+			color: $nav-link;
+			white-space: normal;
+			&:hover {
+				color: $nav-link-hover;
+				outline: none;
+				box-shadow: none;
+				background-color: $white;
+			}
+			&:focus {
+				background-color: $white;
+			}
+		}
+		i {
+			margin-right: 4px;
+		}
+	}
+}
+@keyframes Heartbeat {
+    0% {
+        transform: scale(0.9);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    40% {
+        transform: scale(0.9);
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(0.9);
+    }
+}
+
+.sign-in-form {
+	height: 100vh;
+	position: relative;
+	.box {
+		padding: 30px 20px;
+		color: $nav-link; 
+		.forget-link {
+			color: $nav-link; 
+			text-decoration: underline;
+		}
+		.arch-btn {
+		    padding: 8px 30px;
+		    background-color: $arch-btn-bg;
+		    color: $white;
+		    border-radius: 0;
+		}
+	}
+	.shadow-box {
+		box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.2);
+	}
+	h1 {
+		font-size: 1.6rem;
+		color: $dark;
+	}
+	
+}

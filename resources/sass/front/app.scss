@@ -1,0 +1,23 @@
+@media (-webkit-device-pixel-ratio: 1.25) {
+  * {
+    zoom: 0.8;
+  }
+}
+@import "./partials/variable";
+@import "bootstrap/scss/bootstrap";
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+@import "./partials/common";
+@import "./partials/header";
+@import "./partials/main";
+@import "./partials/about";
+@import "./partials/list-space";
+@import "./partials/register";
+@import "./partials/filter";
+@import "./partials/order-review";
+@import "./partials/under-construction";
+@import "./partials/colive";
+@import "./partials/cropper";
+@import "./partials/responsive";

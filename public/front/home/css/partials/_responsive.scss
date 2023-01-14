@@ -1,0 +1,1173 @@
+
+@media screen and (min-width: 1400px) {
+	// .map-bg {
+	// 	height: 645px;
+	// 	background-position: 0px -131px; 
+	// 	.img-top {
+	// 	    top: 90px;
+	// 	}
+	// }
+	// .map-bg-1 {
+	// 	background-position: 100%; 
+	// 	background-size: cover;
+	// 	height: 590px;
+	// 	.img-top {
+	// 	    top: 146px;
+	// 	    left: 22.5%;
+
+	// 	}
+	// }
+	.map-bg {
+		height: 645px;
+		background-position: 0 -45px; 
+		.img-top {
+		    top: 90px;
+		}
+	}
+	.map-bg-1 {
+		background-position: 0 -118px; 
+		background-size: cover;
+		height: 582px;
+		.img-top {
+		    top: 52px;
+		    left: 20.5%;
+
+		}
+	}
+}
+@media screen and (min-width: 1500px){
+	// .container {
+	//     max-width: 1420px !important;
+	// }
+	.under-construction .banner-image {
+	    height: 76vh;
+	    width: 100%;
+	}
+	.team .team-wrapper {
+	    height: 479px;
+	    width: 87%;
+	    overflow-y: hidden;
+	}
+	.choose-option .card-wrapper .card .card-body img {
+	    height: calc(100vh - 62vh);
+	    margin: 0rem 0 1rem;
+	}
+	.card-container {
+		.card{
+
+			.card-body{
+			 	img {
+				    margin-bottom: 1.7rem;
+				    height: calc(100vh - 60vh)!important;
+				}
+				h2{
+					font-size: 2rem;
+				}
+				h4{
+					font-size: 1.4rem;
+				}
+				p {
+				    font-size: 1.2rem;
+				    max-width: 380px;
+				}
+			}
+		}
+	}
+	.header-strip {
+		h2 {
+		    font-size: 1.7rem;
+		}
+		p{
+			font-size: 1.2rem;
+		}
+		h4{
+			font-size: 1.5rem;
+		}
+	}
+}
+@media screen and (min-width: 1600px) {
+	// .map-bg {
+	// 	background-position: 0 -161px !important;
+	// 	.img-top {
+	// 	    top: 100px;
+ //    		left: 37%;
+	// 	}
+	// }
+	// .map-bg-1 {
+	// 	height: 590px;
+	// 	background-position: 0 -335px;
+	// 	.img-top {
+	// 		top: 80px;
+ //    		left: 22.5%;
+	// 	}
+	// }
+	.map-bg {
+		background-position: 0 -50px;
+		.img-top {
+		    top: 100px;
+    		left: 30%;
+		}
+	}
+	.map-bg-1 {
+		height: 590px;
+		background-position: 0 -164px;
+		.img-top {
+			top: 30px;
+    		left: 20.5%;
+		}
+	}
+}
+@media screen and (min-width: 1700px) {
+	// .map-bg-1 {
+	// 	.img-top {
+	// 		top: 113px;
+ //    		left: 22.5%;
+	// 	}
+	// }	
+	.map-bg-1 {
+		.img-top {
+			top: 80px;
+    		left: 20.5%;
+		}
+	}
+	.container {
+	    max-width: 1500px !important;
+	}
+	
+	.f-14 {
+	    font-size: 20px;
+	}
+	.f-9 {
+	    font-size: 1.2rem;
+	}
+	.f-12 {
+	    font-size: 20px;
+	}
+	.f-28 {
+	    font-size: 30px;
+	}
+	.f-24 {
+	    font-size: 32px;
+	}
+	.f-16 {
+	    font-size: 24px;
+	}
+}
+
+@media screen and (min-width: 1800px) {
+	.home-banner-bg {
+		background-position: 0 316px;
+	}
+	// .map-bg {
+	// 	background-position: 0 -164px;
+	// 	.img-top {
+
+	// 	    top: 116px;
+ //    		left: 37%;
+	// 	}
+	// }
+	// .map-bg-1 {
+	// 	background-position: 0 -754px;
+	// 	height: 590px;
+	// 	.img-top {
+	// 	    top: 40px;
+ //    		left: 22.5%;
+
+	// 	}
+	// }
+	.map-bg {
+		background-position: 0 -78px;
+		.img-top {
+
+		    top: 100px;
+    		left: 30.5%;
+		}
+	}
+	.map-bg-1 {
+		background-position: 0 -250px;
+		height: 590px;
+		.img-top {
+		    top: 40px;
+    		left: 20.5%;
+
+		}
+	}
+	.home-page-logo {
+	    width: 144px;
+	}
+	// .bg-town-container .wrapper{
+		// min-height: 450px;
+		// bottom:80px;
+		// .home-town{
+			// div{	
+				// img{
+					// height:100%;
+					// width:auto;
+	.bg-town-container{
+		height: 500px;
+		.wrapper{
+			height:450px;
+			bottom:23px;
+			.home-town{
+				div{
+					height:450px;
+					width:950px;
+					img{
+						height:100%;
+						width:auto;
+					}
+				}
+			}
+		}
+	}
+	.container {
+	    max-width: 1600px !important;
+	}
+	
+	.f-9 {
+	    font-size: 1.4rem;
+	}
+	.f-6 {
+	    font-size: 1rem;
+	}
+	.f-8 {
+	    font-size: 1.2rem;
+	}
+	.form-control::placeholder {
+		font-size: 16px;
+	}
+	.form-control{
+		font-size: 16px;
+	}
+	.input-group > .form-control::placeholder{
+		font-size: 16px;
+	}
+	.register-form input{
+		padding: 8px 15px;
+	}
+	.btn-success{
+		font-size: 1.5rem;
+	}
+}
+@media screen and (min-width:2500px){
+	.bg-town-container{
+		height:550px;
+		.wrapper{
+			bottom:20px;
+		} 
+	}
+	.map-bg {
+		background-position: 0 -160px;
+	    height: 868px;
+	    .img-top {
+		    top: 70px;
+		    left: 30.5%;
+		}
+	}
+	.map-bg-1 {
+	    background-position: 0 -250px;
+	    height: 868px;
+	    .img-top {
+		    // top: 242px;
+		}
+	}
+	.under-construction .banner-image {
+	    height: 76vh;
+	    width: 100%;
+	}
+}
+
+
+@media screen and (min-width: 1800px) and (max-width: 1900px){
+	.container {
+	    max-width: 1600px !important;
+	}
+} 
+@media screen and (min-width: 1900px) and (max-width: 2300px){
+	.container {
+	    max-width: 1700px !important;
+	}
+	.f-6 {
+	    font-size: 1rem;
+	}
+
+
+} 
+@media screen and (min-width:2300px) and (max-width: 2900px){
+	.container {
+	    max-width: 2100px !important;
+	}
+	.choose-option .home-page-logo {
+	    width: 130px;
+	}
+	.choose-option .card-wrapper .card .card-body {
+		img {
+		    height: calc(100vh - 49vh);
+		    margin: 0rem 0 1rem;
+		}
+		h2{
+			font-size: 1.8rem;
+		}
+	}
+	.card-container {
+		.card{
+
+			.card-body{
+			 	img {
+				    margin-bottom: 1.7rem;
+				    height: calc(100vh - 60vh)!important;
+				}
+				h2{
+					font-size: 2.3;
+				}
+				h4{
+					font-size: 1.6rem;
+				}
+				p {
+				    font-size: 1.5rem;
+				    max-width: 380px;
+				}
+			}
+		}
+	}
+	.map-bg {
+		.img-top{
+		 	img {
+    			height: 636px;
+    		}
+    		svg {
+    			height: 636px;
+    		}
+    	}
+	}
+	.map-bg-1 {
+		.img-top {
+		    top: 192px;
+		    img {
+			    height: 557px;
+			}
+			svg {
+			    height: 557px;
+			}
+		}
+	}
+	.header-strip {
+		h2 {
+		    font-size: 2rem;
+		}
+		p{
+			font-size: 1.5rem;
+		}
+		h4{
+			font-size: 1.8rem;
+		}
+	}
+	.team-people {
+		ul li {
+			width: 80%;
+			img{
+				width: 175px;
+			}
+			.girl-pic{
+				width: 218px;
+			}
+			.info{
+				h4{
+	    			font-size: 1.6rem;
+	    		}
+	    		p{
+	    			font-size: 1.4rem;
+	    		}
+	    	}
+	    }
+	}
+	.team{ 
+		.team-wrapper {
+		    height: calc(100vh - 47vh);
+		}
+		.left-box{
+		 	ul{
+				li{
+					h4 {
+		    			font-size: 1.7rem;
+		    		}
+		    		p{
+		    			font-size: 1.5rem;
+		    		}
+		    		
+		    	}
+		    }
+	    }
+	}
+	p {
+	    	font-size: 1.5rem;
+	}
+	.f-9 {
+	    font-size: 1.4rem !important;
+	}
+	.h6{
+	    font-size: 1.4rem;
+	}
+	.bg-town-container .wrapper{
+		height:450px;
+		bottom:80px;
+		.home-town{
+			div{
+				height:450px;
+				width:950px;
+				img{
+					height:100%;
+					width:auto;
+				}
+			}
+		}
+	}
+}
+@media screen and (min-width:2900px) and (max-width: 5000px){
+	.container {
+	    max-width: 2500px !important;
+	}
+	
+	.f-28 {
+	    font-size: 38px;
+	}
+	.f-12 {
+	    font-size: 26px;
+	}
+	.f-16 {
+	    font-size: 30px;
+	}
+	.f-9 {
+	    font-size: 1.4rem;
+	}
+}
+
+// @media screen and (min-width: 2200px)  {
+// 	.home-banner-bg {
+// 		background-position: 0 316px;
+// 	}
+// 	.map-bg {
+// 		background-position: 0 -290px !important;
+// 		.img-top {
+
+// 		    top: 116px;
+//     		left: 37%;
+// 		}
+// 	}
+// 	.map-bg-1 {
+// 		background-position: 0 -250px;
+// 		height: 590px;
+// 		.img-top {
+// 		    top: 40px;
+//     		left: 20.5%;
+
+// 		}
+// 	}
+// }
+// @media screen and (max-width: 2200px) and (min-width: 1800px) {
+// 	.home-banner-bg {
+// 		background-position: 0 316px;
+// 	}
+// 	.map-bg {
+// 		background-position: 0 -206px;
+// 		.img-top {
+
+// 		    top: 116px;
+//     		left: 37%;
+// 		}
+// 	}
+// 	.map-bg-1 {
+// 		background-position: 0 -594px !important;
+// 		height: 590px;
+// 		.img-top {
+// 		    top: 40px;
+//     		left: 20.5%;
+
+// 		}
+// 	}
+// }
+
+
+
+@media screen and (width:2880px) and (height:1800px){
+	.bg-town-container{
+		height:550px;
+		.wrapper{
+			bottom:20px;
+		} 
+	}
+	.map-bg {
+		background-position: 0 -160px;
+	    height: 868px;
+	}
+	.map-bg-1 {
+	    background-position: 0 -250px;
+	    height: 868px;
+	    .img-top {
+		    top: 344px;
+		}
+	}
+	.under-construction .banner-image {
+	    height: 76vh;
+	    width: 100%;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.navbar {
+		.nav-item .nav-link {
+		    padding: 0.8rem 1rem 0.05rem;
+		}
+		.profile-photo{
+			.profile-wrapper{
+				width: 55px;
+				height: 55px;
+			}
+		}
+	}
+	// .map-bg {
+	// 	background-position: 100% ;
+		
+	// 	.img-top {
+	// 		top: 99px;
+ //    		left: 30%;
+	// 		img {
+	// 			height: 425px;
+	// 		}
+	// 	}
+	// }
+	// .map-bg-1 {
+	// 	.img-top {
+	// 	    top: 103px;
+	// 	    left: 13%;
+
+	// 	}
+	// }
+	.map-bg {
+		background-position: 100% ;
+		.img-top {
+			top: 99px;
+    		left: 30%;
+			img {
+				height: 460px;
+			}
+			svg {
+				height: 460px;
+			}
+		}
+	}
+	.map-bg-1 {
+		.img-top {
+		    top: 103px;
+		    left: 13%;
+
+		}
+	}
+	.choose-option{
+		.card-wrapper{
+			.card {
+				.card-body {
+					img {
+						height: calc(100vh - 70vh);
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.navbar {
+		.navbar-brand {
+			img {
+				// padding-left: 10px;
+			}
+		}
+	}
+	.card-container {
+		.card {
+			.card-body {
+				padding: 1rem;
+				img {
+					height: 180px;
+				}
+				.arrow:after {
+					top: 8px;
+					right: -19%;
+				}
+				h2 {
+					font-size: 2.3rem;
+				}
+				h4 {
+					font-size: 1.1rem;
+					min-width: 190px;
+				}
+				p {
+					padding: 10px 0px 0 0;
+					font-size: 1rem;
+					margin-bottom: 0;
+				}
+			}	
+		}
+
+	}
+	.header-strip  {
+		.row {
+			padding-left: 0.5rem;
+			padding-right: 0.5rem;
+		}
+		p {
+			font-size: 1rem;
+		}
+		h4 {
+			font-size: 1.35rem;
+		}
+	} 
+	.bg-town-container {
+		padding-top: 140px;
+	}
+	// .map-bg {
+	// 	height: 600px;
+	// 	.img-top {
+	// 	    top: 107px;
+ //    		left: 37%;
+	// 	}
+	// }
+	// .map-bg-1 {
+	// 	height: 590px;
+	// 	.img-top {
+	// 	    top: 116px;
+ //    		left: 22.5%;
+
+	// 	}
+	// }
+	.map-bg {
+		height: 600px;
+		.img-top {
+		    top: 107px;
+    		left: 37%;
+		}
+	}
+	.map-bg-1 {
+		height: 590px;
+		.img-top {
+		    top: 9px;
+    		left: 18.5%;
+
+		}
+	}
+	.team {
+		.row {
+			padding: 0 0.5rem;
+		}
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	// .map-bg {
+	// 	height: 600px;
+	// 	.img-top {
+	// 	     top: 102px;
+ //    		// left: 20%;		
+	// 	}
+	// }
+	// .map-bg-1 {
+	// 	background-position: 0;
+	// 	height: 600px;
+	// 	.img-top {
+	// 	    top: 122px;
+ //    		left: 23.5%;
+	// 	}
+	// }
+	.map-bg {
+		height: 600px;
+		.img-top {
+		     top: 102px;
+    		left: 20%;		
+		}
+	}
+	.map-bg-1 {
+		background-position: 0;
+		height: 600px;
+		.img-top {
+		    top: 122px;
+    		left: 23.5%;
+		}
+	}
+}
+@media screen and (max-width: 1048px) {
+	.map-bg {
+		// background-position: 0px -36px;
+		.img-top {
+		    top: 104px;
+
+    		left: 17.5%;
+		}
+	}
+}
+@media screen and (max-width: 1024px) {
+	.map-bg {
+		.img-top {
+    		// left: 37.5%;
+    		left: 15.5%;
+		}
+	}
+	.map-bg-1 {
+		background-position: 0;
+		height: 600px;
+		.img-top {
+		    // top: 124px;
+    		// left: 23%;
+    		top: 90px;
+    		left: 25%;
+		}
+	}
+}
+
+@media screen and (max-width: 991px) { 
+	.choose-option .card-wrapper{
+		.custom-radio .custom-control-label::before {
+		    top: 55%;
+		    transform: translate(-50%, -55%);
+		}
+		.custom-control-label::after {
+			top: 55%;
+		    transform: translate(-50%, -55%);
+		}
+	}
+	.home-banner {
+		// margin-top: 100px;
+		height: 66vh;
+	}
+	 .navbar {
+	 	padding: 0.5rem;
+	 	.navbar-brand {
+	 		img {
+	 			height: 55px;
+	 		}
+	 	}	
+	 	.nav-item {
+	 		.nav-link {
+	 			font-size: 0.84rem;
+	 			padding: 0.8rem 0.5rem 0.5rem;
+	 		}
+	 	}
+	 }
+	 .header-strip {
+	 	h2 {
+		  	font-size: 1.7rem;
+		}
+	 }
+
+	 .bg-town-container {
+	 	height: 400px;
+	 }
+	.card-container {
+		.card {
+			.card-body {
+				padding: 0;
+				.arrow {
+					&:after {
+						right: -32px;
+					}
+				}
+				h2 {
+					font-size: 1.4rem;
+					margin-right: 4px;
+					padding: 12px 9px 12px 9px;
+				}
+				img {
+					margin-bottom: 2rem;
+				}
+				h4 {
+					font-size: 1rem;
+					padding: 6px 0 5px 4px;
+					min-width: 140px;
+				}
+				p {
+					font-size: 0.9rem;
+				}
+			}	
+		}
+  	}
+  	.header-strip {
+  		h4 {
+  			font-size: 1rem;
+  		}
+  	}
+  	.map-bg {
+  		height: 450px;
+  		// background-position: 100%;
+  		.img-top {
+  			padding-right: 40px;
+  			// top: 65px;
+    		// left: 15.5%;
+    		top: 75px;
+    		left: 30%;
+    		img {
+    			height: 350px;
+    		}
+    		svg {
+    			height: 350px;
+    		}
+  		}
+  	}
+  	  
+  	.map-bg-1 {
+  		height: 450px;
+  		.img-top {
+  			background-size: cover;
+  			// top: 72px;
+  			// left: 23%;
+  			top: 42px;
+  			left: 21%;
+  			img {
+  				padding-right: 40px; 
+  				height: 370px;
+  			}	
+  			svg {
+  				padding-right: 40px; 
+  				height: 370px;
+  			}		
+  		}
+  	 }
+  	 .team {
+  	 	h2 {
+  	 		font-size: 1.8rem;
+  	 	}
+  	 	p {
+  	 		font-size: 1rem;
+  	 	}
+
+  	 	.left-box {
+  	 		 ul {
+  	 		 	li {
+  	 		 		h4 {
+  	 		 			margin-bottom: 0.5rem;
+  	 		 		}
+  	 		 	}
+  	 		 }
+  	 		 // img {
+  	 		 // 	height: 300px;
+  	 		 // }
+  	 	}
+
+  	 }
+  	.team-people {
+  		ul {
+  			li {
+  				margin-top: 1.5rem;
+  				width: 32.6%;
+  				float: left;
+  				margin-left: 7px;
+  				margin-bottom: 0;
+  				padding: 6px 3px 2px 3px;
+  				min-height: 98px;
+  				&:first-child {
+  					margin-left: 0px;
+  				}
+  				img {
+  					height: 80px;
+  				}
+  				.girl-pic{
+  					width: 126px;
+  				}
+  				.info {
+  					h4 {
+  						font-size: 0.75rem;
+  						padding-right: 0;
+  					}
+  					.post {
+  						margin-top: 0;
+  					}
+  				}
+  			}
+  		}	
+  	}
+}
+
+@media screen and (max-width: 767px) {
+	.navbar .profile-photo .profile-wrapper {
+	    width: 45px;
+	    height: 45px;
+	}
+	.navbar .navbar-brand img {
+	    height: 45px;
+	}
+	.navbar {
+    height: 60px;
+}
+	.mobile-menu {
+		.side-nav {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 0;
+			overflow-x: hidden;
+			z-index: 1;
+			transition: 0.5s;
+			padding-top: 40px;
+			background-color: $nav-link;
+
+			a{
+				padding: 8px 8px 8px 20px;
+				text-decoration: none;
+				color: $white;
+				display: block;
+				transition: 0.3s;
+				text-transform: uppercase;
+				&.closebtn {
+					position: absolute;
+					top: 16px;
+					right: 25px;
+				}
+			}
+		}
+
+		.menu-icon {
+			display: inline-block;
+			.menu-bar {
+				height: 3px;
+				width: 25px;
+				margin: 4px 0;
+				background-color: $nav-link;
+			}
+		}
+	}
+	.about-slider{
+		height:auto !important;
+		padding-top:25px;
+	}
+	.margin-top {
+	    margin-top: 61px;
+	}
+	 .bg-town-container {
+		height: 370px;
+	} 
+	.card-container {
+		.card {
+			margin-bottom: 2rem;
+			.card-body {
+				h4 {
+					max-width: 280px;
+				}
+				img {
+					height: auto;
+					margin: 0 auto 0.8rem;
+				}
+				.arrow:after {
+					display: none;
+				}		
+			}		
+		}
+	}
+	.team {
+		.left-box, &-people {
+			ul {
+				li {
+					margin-left: auto;
+					margin-right: auto;
+					margin-bottom: 16px;
+					// width: 55%;
+					width:100%;
+					&:nth-child(1){
+						margin-left: auto;
+					}
+				}
+			}
+		}
+		&-people {
+			ul {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;		
+				li {
+					margin-top: 0;
+				}
+			}
+		}
+		.team-wrapper {
+		    height: auto;
+		    width: 100%;
+		    overflow-y: hidden;
+		}
+	}
+	.map-bg {
+		height: 645px;
+	}
+	.map-bg-1 {
+		padding-top: 20px;
+		height: 720px;	
+	}
+	.map-bg, .map-bg-1 {
+		background: url('../img/bg-map-sm.png') no-repeat;
+		background-position: top center;   
+		background-size: cover;
+	}
+
+	.map-bg, .map-bg-1 {
+		.img-top-sm {
+			ul {
+				li {
+					width: 100%;
+				}		
+			}	
+		}	
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.about-slider{
+		height:auto !important;
+		padding-top:25px;
+	}
+	
+	.choose-option .card-wrapper{
+		.custom-radio .custom-control-label::before {
+		    top: 63%;
+		    transform: translate(-50%, -63%);
+		}
+		.custom-control-label::after {
+			top: 63%;
+		    transform: translate(-50%, -63%);
+		}
+		.card .card-body img {
+		    height: calc(100vh - 60vh);
+		}
+	}
+	.btn-success{
+		font-size: 0.7rem;
+	}
+	.home-banner {
+		height: 400px;
+		margin-top: 0;
+		.home-banner-bg {
+			background-position: 0 135px;
+			background-attachment: scroll;
+		}
+	}
+	.navbar {
+		.navbar-brand {
+			// padding-left: 19px;
+			img {
+				padding-left: 0;
+			}
+		}
+	}
+	.header-strip {
+		.row {
+			padding-left: 0;
+			padding-right: 0;
+		}
+		p {
+			font-size: 0.95rem;
+		}
+		h2 {
+			// font-size: 1.6rem;
+			font-size: 1.3rem;
+		}
+	} 
+	.bg-town-container {
+		height: 330px;
+	}
+	 .team {
+		.left-box, &-people {
+			ul {
+				li {
+					width: 85%;
+				}
+			}
+		}
+	}
+	 .team {
+	 	.left-box {
+	 		img {
+	 			height: auto;
+	 		}
+	 	}
+	 }
+
+
+}
+@media screen and (max-width: 480px) {
+	.home-banner {
+		height: 365px;
+	}
+	.map-bg {
+		.img-top-sm {
+			ul {
+				li {
+					width: 85%;
+				}
+			}
+		}
+	}
+	.map-bg, .map-bg-1 {
+		.img-top-sm {
+			ul {
+				padding: 0 16px;
+				li {
+					width: 90%;
+					.interest {
+						img {
+							margin-top: 0;
+							height: 30px;
+						}
+					}
+				}	
+			}
+			.client-img {
+				img {
+					height: 95px;
+				}
+			} 		
+		}	
+	}
+	.map-bg {
+		height: 550px;
+	}
+	.map-bg-1 {
+		height: 545px;
+	}
+}
+
+@media screen and (max-width: 399px) {
+	.home-banner {
+		height: 310px;
+	}
+	.map-bg {
+		.img-top-sm {
+			ul {
+				margin-right: 0;
+				padding: 0 16px;
+				li {
+					width: 100%;
+				}
+			}
+		}
+	}
+	.map-bg, .map-bg-1 {
+	.img-top-sm {
+		.client-img {
+			img {
+				height: 85px;
+				width: 90px;
+			}
+		}
+		ul {
+			padding: 0 12px;
+			li {
+				width: 100%;
+				h4 {
+					font-size: 0.8rem;
+				}
+				.interest{
+					img {
+						height: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+}

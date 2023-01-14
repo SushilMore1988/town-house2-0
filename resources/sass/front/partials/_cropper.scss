@@ -1,0 +1,28 @@
+.imgCroppermodal{
+	overflow-y:hidden !important;
+	.modal-dialog{
+		max-width: 100% !important;
+		.zoom-wrapper{
+			position: absolute;
+			bottom: 9px; 
+			left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0,0,0,0.8);
+            .btn{
+            	background-color: transparent;
+            	&:focus{
+            		outline: 0px;
+            		box-shadow: none;
+            	}
+            }
+		}
+		.cropper-canvas{
+			// width: 100% !important;
+			// transform:translateX(0px) !important;
+			img{
+				width: auto !important;
+				height: 100% !important
+			}
+		}
+	}
+}

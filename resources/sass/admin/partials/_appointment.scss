@@ -1,0 +1,55 @@
+.appointment-list {
+	.date {
+		color: $nav-link;
+	}
+	.custom-btn {
+		color: white !important;
+		i {
+			padding-right: 4px;
+		}
+		&:hover {
+			color: white;
+			text-decoration: none;
+		}
+	}
+	.alert {
+		width: 75%;
+		position: relative;	
+		.patient-img {
+			display: inline-block;
+			vertical-align: top; 
+			padding-right: 18px;
+			img {
+				margin-top: 4px;
+				display: inline-block;
+				height: 45px;
+				border-radius: 50%;
+			}
+		}
+		.patient-detail {
+			padding-top: 5px;
+			display: inline-block;
+			.time {
+				position: absolute;
+				top: 30px;
+				right: 20%;
+			}
+			h4 {
+				font-weight: bold;
+				font-size: 0.95rem;
+				margin-bottom: 0.2rem;
+			}
+			p {
+				font-size: 0.85rem;
+				display: inline-block;
+				padding-right: 30px;
+				color: $nav-link;
+				margin-bottom: 0.4rem;
+			}
+		}
+		.close:focus {
+			box-shadow: none;
+			outline: none;
+		}
+	}
+}

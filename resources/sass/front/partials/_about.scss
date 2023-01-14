@@ -1,0 +1,113 @@
+.bg-town-container {
+	height: 300px;
+	position: relative;
+	.wrapper {
+		background-color: #e8e6e6;
+		border-top: 1px solid #ccc;
+		width: 100%;
+		height: 230px;
+		margin-top: -1px;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		.home-town div {
+			text-align: center;
+			width: 800px;
+			height: 230px;
+			float: left;
+			position: relative;
+		}
+		.home-town div img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+.team {
+	p {
+		font-family: 'Roboto-LightItalic', sans-serif;
+		font-weight: 300;
+		strong {
+			font-family: 'Roboto-BoldItalic', sans-serif;
+			font-weight: 700;
+		}
+	}
+	.left-box {
+		ul {
+			margin: 0;
+			padding: 0;
+			li {
+				border: 1px solid #989898;
+				list-style: none;
+				width: 32%;
+				margin-left: 16px;
+				padding: 10px 10px 0;
+				&:nth-child(1) {
+					margin-left: 0;
+				}
+				h4 {
+					font-size: 1rem;
+					color: #808285;
+					margin-bottom: 1rem;
+				}
+				p {
+					font-size: 0.8rem;
+					strong {
+						color: #808285;
+					}
+				}
+			}
+		}
+	}
+	.team-wrapper{
+		height: 380px;
+		width: 87%;
+		overflow-y: hidden;
+		.team-image{
+			width: 100%;
+		}
+	}
+	
+}
+
+.team-people, .map-bg, .map-bg-1 {
+	ul {
+		margin: 0;
+		padding: 0;
+		margin-right: 18px;
+		li {
+			margin-left: auto;
+			width: 85%;
+			border: 1px solid #989898;
+			list-style: none;
+			padding: 8px;
+			margin-bottom: 16px;
+			img{
+				width: 109px;
+			}
+			.girl-pic{
+				width: 140px;
+			}
+			.info {
+				padding-left: 4px;
+				h4 {
+					padding-right: 8px;
+					font-size: 0.9rem;
+					color: #808285;
+					margin-bottom: 0.5rem;
+				}
+				p {
+					font-size: 0.7rem;
+					margin-bottom: 0;
+					strong {
+						color: #808285;
+					}
+				}
+				.post {
+					margin-top: 12px; 
+				}
+			}
+		}
+	}
+}

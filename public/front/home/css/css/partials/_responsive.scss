@@ -1,0 +1,322 @@
+
+@media screen and (min-width: 1400px) {
+	.map-bg {
+		background-position: 0 -45px; 
+		.img-top {
+		    top: 90px;
+		}
+	}
+	.map-bg-1 {
+		background-position: 0 -118px; 
+		background-size: cover;
+		height: 590px;
+		.img-top {
+		    top: 70px;
+		    left: 21%;
+
+
+		}
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.map-bg {
+		background-position: 0 -50px;
+		.img-top {
+		    top: 100px;
+    		left: 30%;
+		}
+	}
+	.map-bg-1 {
+		height: 590px;
+		background-position: 0 -164px;
+		.img-top {
+			top: 70px;
+    		left: 20.5%;
+		}
+	}
+}
+@media screen and (min-width: 1800px) {
+	.map-bg {
+		background-position: 0 -78px;
+		.img-top {
+
+		    top: 100px;
+    		left: 30.5%;
+		}
+	}
+	.map-bg-1 {
+		background-position: 0 -250px;
+		height: 590px;
+		.img-top {
+		    top: 81px;
+    		left: 20.5%;
+
+		}
+	}
+}
+@media screen and (max-width: 1200px) {
+	.map-bg-1 {
+		.img-top {
+		    top: 35px;
+		    left: 22%;
+
+		}
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.navbar {
+		.navbar-brand {
+			img {
+				padding-left: 10px;
+			}
+		}
+	}
+	.card-container {
+		.card {
+			.card-body {
+				padding: 1rem;
+				.arrow:after {
+					top: 8px;
+				}
+				h2 {
+					font-size: 1.8rem;
+				}
+				h4 {
+					font-size: 1.1rem;
+				}
+				p {
+					padding: 10px 0px 0 0;
+					font-size: 1rem;
+					margin-bottom: 0;
+				}
+			}	
+		}
+
+	}
+	.header-strip  {
+		p {
+			font-size: 1rem;
+		}
+	} 
+	.bg-town-container {
+		padding-top: 140px;
+	}
+	.map-bg {
+		height: 600px;
+		.img-top {
+		    top: 107px;
+    		left: 37%;
+		}
+	}
+	.map-bg-1 {
+		height: 590px;
+		.img-top {
+		    top: 9px;
+    		left: 18.5%;
+
+		}
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.map-bg {
+		height: 600px;
+		.img-top {
+		   top: 108px;
+    		left: 36.5%;
+		}
+	}
+	.map-bg-1 {
+		background-position: 0;
+		height: 600px;
+		.img-top {
+		    top: 122px;
+    		left: 25%;
+		}
+	}
+	
+}
+
+@media screen and (max-width: 991px) { 
+	.home-banner {
+		margin-top: 150px;
+	}
+	 .navbar {
+	 	padding: 0.5rem;
+	 	.navbar-brand {
+	 		img {
+	 			height: 55px;
+	 		}
+	 	}	
+	 	.nav-item {
+	 		.nav-link {
+	 			font-size: 0.84rem;
+	 			padding: 0.8rem 0.5rem 0.5rem;
+	 		}
+	 	}
+	 }
+	 .header-strip {
+	 	h2 {
+		  	font-size: 1.7rem;
+		}
+	 }
+
+	 .bg-town-container {
+	 	height: 400px;
+	 }
+	.card-container {
+		.card {
+			.card-body {
+				padding: 0;
+				.arrow {
+					&:after {
+						right: -36px;
+					}
+				}
+				h2 {
+					font-size: 1.4rem;
+					margin-right: 4px;
+					padding: 12px 9px 12px 9px;
+				}
+				img {
+					margin-bottom: 2rem;
+				}
+				h4 {
+					font-size: 1rem;
+					padding: 6px 0 5px 4px;
+				}
+				p {
+					font-size: 0.9rem;
+				}
+			}	
+		}
+  	}
+  	.header-strip {
+  		h4 {
+  			font-size: 1rem;
+  		}
+  	}
+  	.map-bg {
+  		height: 450px;
+  		.img-top {
+  			top: -20px;
+  			left: 37%;
+  		}
+  	}
+  	  
+  	.map-bg-1 {
+  		height: 450px;
+  		.img-top {
+  			background-size: cover;
+  			img {
+  				height: 370px;
+  			}		
+  		}
+  	 }
+  	 .team {
+  	 	h2 {
+  	 		font-size: 1.8rem;
+  	 	}
+  	 	p {
+  	 		font-size: 1rem;
+  	 	}
+
+  	 	.left-box {
+  	 		 ul {
+  	 		 	li {
+  	 		 		h4 {
+  	 		 			margin-bottom: 0.5rem;
+  	 		 		}
+  	 		 	}
+  	 		 }
+  	 		 img {
+  	 		 	height: 300px;
+  	 		 }
+  	 	}
+
+  	 }
+  	.team-people {
+  		ul {
+  			li {
+  				margin-top: 1.5rem;
+  				width: 32%;
+  				float: left;
+  				margin-left: 10px;
+  				margin-bottom: 0;
+  				padding: 8px 8px 4px 8px;
+  				min-height: 98px;
+  				&:first-child {
+  					margin-left: 0px;
+  				}
+  				img {
+  					height: 75px;
+  				}
+  				.info {
+  					h4 {
+  						font-size: 0.75rem;
+  					}
+  					.post {
+  						margin-top: 0;
+  					}
+  				}
+  			}
+  		}	
+  	}
+}
+
+@media screen and (max-width: 767px) {
+	.mobile-menu {
+		.side-nav {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 0;
+			overflow-x: hidden;
+			z-index: 1;
+			transition: 0.5s;
+			padding-top: 40px;
+			background-color: $nav-link;
+
+			a{
+				padding: 8px 8px 8px 20px;
+				text-decoration: none;
+				color: $white;
+				display: block;
+				transition: 0.3s;
+				&.closebtn {
+					position: absolute;
+					top: 16px;
+					right: 25px;
+				}
+			}
+		}
+
+		.menu-icon {
+			display: inline-block;
+			.menu-bar {
+				height: 3px;
+				width: 25px;
+				margin: 4px 0;
+				background-color: $nav-link;
+			}
+		}
+	}
+	   
+	.card-container {
+		.card {
+			margin-bottom: 2rem;
+			.card-body {
+				img {
+					height: 300px;
+					margin: 0 auto 1.2rem ;
+				}
+				.arrow:after {
+					display: none;
+				}		
+			}		
+		}
+	}
+}

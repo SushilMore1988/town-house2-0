@@ -1,0 +1,104 @@
+.under-construction{
+	.under-construction-img{
+		width: 80px;	
+		// width:95px;
+	}
+	.banner-image{
+		background:url("~/img/under-construction-banner.png")no-repeat;
+		background-size:cover;
+		background-position: 1% 50%;
+		height: 600px;
+		width: 100%;
+	}
+	
+}
+.services{
+	
+	input{
+	    visibility: hidden; 
+	    position: absolute; 
+	}
+	input + div{
+	    cursor:pointer;
+	    border:2px solid transparent;
+	}
+	input:checked + div{
+	    background-color: #ffd6bb;
+	    border: 1px solid #ff6600;
+	}
+	.box {
+		border: 1px solid #ccc;
+		width: 204px;
+		height: 200px;
+		img 
+		{
+			width: 38px;
+			margin-top: 60px;
+		}
+		h6
+		{
+			text-transform: uppercase;
+		}
+		
+	}
+	.share-opinion{
+		width: 150px;
+		height: 150px;
+		img{
+			margin-top: 0px;
+			height: 70px;
+			width: auto;
+			max-width: 80px;
+		}
+		h6
+		{
+			text-transform: lowercase;
+		}
+	}
+
+}
+.live-opinion{
+	input:checked + div{
+	    background-color: #FFF200;
+	    border: 1px solid #ccc;
+	}
+}
+.work-opinion{
+	input:checked + div{
+	    background-color: #2E3192;
+	    border: 1px solid #ccc;
+	    h6{
+	    	color: #fff;
+	    }
+	    
+	}
+	label{
+		.share-opinion{
+			h6{
+				color: #231F20;
+			}
+		}
+	}
+}
+.commute-opinion{
+	input:checked + div{
+	    background-color: #00A1ED;
+	    border: 1px solid #00A1ED;
+	     h6{
+	    	color: #fff;
+	    }
+	}
+	
+	label{
+		.share-opinion{
+			h6{
+				color: #231F20;
+			}
+		}
+		&:hover{
+			
+			background-color: #ccc;
+			
+		}
+	}
+}

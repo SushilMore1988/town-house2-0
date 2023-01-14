@@ -1,0 +1,80 @@
+.billAccordian {
+	p {
+		font-size: 0.95rem;
+		color: $nav-link;
+	}
+	.card {
+		border: none;
+	}
+	.card-header {
+		position: relative;
+		border: none;
+		border-radius: 0;
+		margin-bottom: 2px;
+		border-top: 1px solid $input-border;
+		border-bottom: 1px solid $input-border;
+		.btn {
+			background: transparent;
+			text-align: center;
+			color: $dark;
+			font-size: 0.9rem;
+			position: absolute;
+			top: 20%; 
+			right: 50px;
+			&:focus {
+				outline: none;
+				box-shadow: none;
+			}
+		}
+		a {
+			color: $dark;
+			position: relative;
+			display: block;
+			&.card-link {
+				&:before, &.collapsed:before {
+					font-family: 'Font Awesome 5 Free';
+					display: inline-block;
+					font-weight: 900;
+					font-size: 0.75rem;
+					position: absolute;
+					top: 4px;
+					right: 0;
+				}
+				&:before {
+					content: '\f068';
+				}
+				&.collapsed:before {
+					content: '\f067';
+				}	
+			}
+		}
+	}
+	.card-body {
+		h3 {
+			font-size: 1.5rem;
+			padding: 10px 0;
+		}
+		.form-check-inline {
+			min-width: 140px;
+		}
+		.amount {
+			padding-top: 2rem;
+			.d-flex {
+				h5 {
+					margin-bottom: 0;
+					min-width: 165px;
+					font-size: 1rem;	
+				}
+				p {
+					margin-bottom: 0.7rem;
+					font-size: 0.9rem;
+				}
+				&:last-child {
+					width: 50%;
+					padding-top: 10px;
+					border-top: 1px solid $input-border;	
+				}
+			}
+		}
+	}
+}
