@@ -99,7 +99,7 @@
 							<td class="align-middle border-left text-center package-1">
 								<div class="">
 									<h2 class="r-boldItalic f-24 check-label">
-										{{ $package_currency == 'USD' ? '$15' : '₹999' }}
+										{{ $package_currency == 'USD' ? '$119.88' : '₹999' }}
 									</h2>
 									<h4 class="r-boldItalic f-9 text-body">/year</h4>
 								</div>
@@ -107,7 +107,7 @@
 							<td class="align-middle border-left text-center package-2">
 								<div class="">
 									<h2 class="r-boldItalic f-24 check-label">
-										{{ $package_currency == 'USD' ? '$49' : '₹3399' }}
+										{{ $package_currency == 'USD' ? '$239.88' : '₹3399' }}
 									</h2>
 									<h4 class="r-boldItalic f-9 text-body">/year</h4>
 								</div>
@@ -115,7 +115,7 @@
 							<td class="align-middle border-left text-center package-3">
 								<div class="">
 									<h2 class="r-boldItalic f-24 check-label">
-										{{ $package_currency == 'USD' ? '$69' : '₹4999' }}
+										{{ $package_currency == 'USD' ? '$479.88' : '₹4999' }}
 									</h2>
 									<h4 class="r-boldItalic f-9 text-body">/year</h4>
 								</div>
@@ -605,7 +605,7 @@
 			<div class="row border">
 				<div class="bg-yellow p-3">
 					<div class="package-container">
-						<h2 class="r-boldItalic f-24 check-label mb-3"><small>Free Additional Services only for Trial Period (45 Days)</small></h2>
+						<h2 class="r-boldItalic f-24 check-label mb-3"><small>Free Additional Services only for Trial Period (21 Days)</small></h2>
 						<ul class="pl-0">
 							<li>
 								<p class="r-lightItalic f-9 check-label"> <i class="fas fa-circle"></i> Online Booking | Venue categorization | U.R.I | Links to Social Media | Venue Recommendation with respect to User Location | Marketing Boosts </p>

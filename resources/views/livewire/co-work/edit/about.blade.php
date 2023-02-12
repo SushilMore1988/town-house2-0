@@ -140,7 +140,7 @@
                             @endif	
                         </div>
                         <div id="otp-error"></div>
-                        <button type="button" class="btn btn-block btn-dark mt-3" wire:click="verifyOtp()"> Verify</button>
+                        <button type="button" class="btn btn-block btn-dark mt-3" wire:click="verifyOtp()"> Verify ({{ Crypt::decrypt($otp) }})</button>
                     </form>
                 </div>
             </div>

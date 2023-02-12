@@ -9,8 +9,8 @@ use App\Models\CwsPackage;
 use App\Models\Package;
 use App\Models\PriceSetting;
 use App\Models\Setting;
-use App\Notifications\CwsPackagePurchaseNotification;
 use Illuminate\Http\Request;
+use App\Notifications\CwsPackagePurchaseNotification;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 use Tzsk\Payu\Concerns\Attributes;
@@ -362,7 +362,7 @@ class ListingPaymentController extends BaseController
 					$coWorkSpacePackage->save();
 
 					Auth::user()->notify(new CwsPackagePurchaseNotification($coWorkSpacePackage));
-
+					
                     return view('front.cowork.payment.success', compact('cwsListingPayment'));
                 }else{
                     $cwsListingPayment->status = 'Failed';
